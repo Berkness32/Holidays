@@ -1,0 +1,52 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #002500;
+    color: #9defbd;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.text, .rText {
+    display: block;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.text {
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+    margin: 40px auto 0px;
+}
+
+.rText {
+    margin: 40px auto;
+}
+
+.Recipes p {
+    background: repeating-linear-gradient(#6B0504, 90%, white);
+    color: #F2BAC9;
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    border: 1px solid #F2BAC9;
+    border-radius: 8px;
+    min-height: 30px;
+    max-width: 300px;
+}
+
+.Recipes :hover {
+    color: white;
+}
