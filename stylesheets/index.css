@@ -14,8 +14,9 @@ h3 {
 img {
     display: block;
     margin: 0px auto;
-    border: 1px solid;
+    border: 1px solid #9defbd;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .text, .rText {
@@ -32,19 +33,20 @@ img {
 
 .rText {
     margin: 40px auto;
+    text-align: center;
 }
 
 .Recipes p {
-    background: repeating-linear-gradient(#6B0504, 90%, white);
+    background-color: #6B0504;
     color: #F2BAC9;
     margin: 20px auto;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
     border: 1px solid #F2BAC9;
-    border-radius: 8px;
-    min-height: 30px;
-    max-width: 300px;
+    border-radius: 20px;
+    min-height: 40px;
+    max-width: 200px;
 }
 
 .Recipes :hover {
